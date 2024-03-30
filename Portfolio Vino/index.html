@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <link rel="stylesheet" href="vendors/bootsrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/boxincons/css/boxicons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Vino Alif Rafli</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link" href="#">Skills</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link" href="#">Timeline</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact</a>
+              </li>  
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- HEADER -->
+    <section class="header-section" id="header">
+        <div class="container">
+            <div class="row align-items-center justify-contenct-between">
+                <div class="col-md-6">
+                    <p class="text-orange fw-semibold nb-5">Vino Alif Rafli</p>
+                    <h1 class="header-title text-uppercase fw-bold">CREATIVE DESIGNED         
+                    </h1>
+
+                  <a href="#" 
+                     class="header-skill d-inline-flex align-items-center gap-2"
+                     >
+                     UI/UX Web Design <i class="bx bx-right-arrow-alt fs-4"></i>
+                  </a> 
+                  <br>
+                  <a href="#" 
+                     class="header-skill d-inline-flex align-items-center gap-2"
+                     >
+                     UI/UX Mobile Design <i class="bx bx-right-arrow-alt fs-4"></i>
+                  </a> 
+                  <br>
+                  <a ref="#" 
+                     class="header-skill d-inline-flex align-items-center gap-2"
+                     >
+                     Graphic Designer <i class="bx bx-right-arrow-alt fs-4"></i>
+                  </a>
+                  
+                  <div class="d-flex align-items-center gap-4 nt-5">
+                      <div class="d-flex align-items-cneter gap-2">
+                        <h2 class="header-skill fw-bold mb-0">1+</h2>
+                        <p class="text-secondary fs-7 mb-0"> Years of <br>Experience</p>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <img src="images/Cover.png" class="header.img" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="portfolio-section" id="portfolio">
+      <div class="container">
+        <p class="text-orange fw-semibold">Portfolio</p>
+        <h2 class="section-title mb-5">selected works</h2>
+
+        <div class="swiper portfolio-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <img src="images/1.jpg" alt="" class="card-img-top rounded mb-3">
+                  <h6 class="fw-semibold">Filing Bootcamp</h6>
+                  <a href="#" class="text-orange">Detail Portfolio</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <img src="images/2.jpg" alt="" class="card-img-top rounded mb-3">
+                  <h6 class="fw-semibold">Tor Filing Bootcamp</h6>
+                  <a href="#" class="text-orange">Detail Portfolio</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <img src="images/3.jpg" alt="" class="card-img-top rounded mb-3">
+                  <h6 class="fw-semibold">Fikti Space 2.0 Logo</h6>
+                  <a href="#" class="text-orange">Detail Portfolio</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <img src="images/5.jpg" alt="" class="card-img-top rounded mb-3">
+                  <h6 class="fw-semibold">Fikti Space 2.0 Feeds</h6>
+                  <a href="#" class="text-orange">Detail Portfolio</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <img src="images/6.jpg" alt="" class="card-img-top rounded mb-3">
+                  <h6 class="fw-semibold">Google DSC UG Template Media</h6>
+                  <a href="#" class="text-orange">Detail Portfolio</a>
+                </div>
+              </div>
+            </div>
+      </div>
+      
+      <div class="d-flex align-items-center justify-content-end gap-3">
+        <button class="btn btn-light d-flex align-items-center justify-content-center btn-next">
+          <i class="bx bx-left-arrow-alt fs-5"></i>
+        </button>
+        <button class="btn btn-light d-flex align-items-center justify-content-center btn-prev">
+          <i class="bx bx-right-arrow-alt fs-5"></i>
+        </button>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills-section" id="skills">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col md-6">
+            <p class="text-orange fw-semibold">Skills</p>
+            <h2 class="section-title text-white mb-5">Graphic Design Skills</h2>
+
+            <div class="mb-3">
+              <div class="d-flex align-items-center justify-content-between mb-2">
+                <p class="text-white text-uppercase fw-semibold mb-0">Adobe Ilustrator</p>
+                <p class="text-white text-uppercase mb-0">85%</p>
+              </div>
+              <div class="progress-bar">
+                <span class="progress" style="width: 85%"></span>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="d-flex align-items-center justify-content-between mb-2">
+                <p class="text-white text-uppercase fw-semibold mb-0">Photoshop</p>
+                <p class="text-white text-uppercase mb-0">70%</p>
+              </div>
+              <div class="progress-bar">
+                <span class="progress" style="width: 70%"></span>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="d-flex align-items-center justify-content-between mb-2">
+                <p class="text-white text-uppercase fw-semibold mb-0">Figma</p>
+                <p class="text-white text-uppercase mb-0">88%</p>
+              </div>
+              <div class="progress-bar">
+                <span class="progress" style="width: 88%"></span>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="d-flex align-items-center justify-content-between mb-2">
+                <p class="text-white text-uppercase fw-semibold mb-0">Canva</p>
+                <p class="text-white text-uppercase mb-0">90%</p>
+              </div>
+              <div class="progress-bar">
+                <span class="progress" style="width: 90%"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <img src="images/Cover 2.png" class="skills.img" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="timeline-section" id="timeline">
+      <div class="container">
+        <p class="text-orange fw-semibold">Timeline</p>
+        <h2 class="section-title mb-5">Experience Organization & Intership</h2>
+
+        <div class="row py-3 border-bottom">
+            <div class="col-md-4">Sep 2021 - Dec 2021</div>
+            <div class="col-md-4">Public Relation and Marketing</div>
+            <div class="col-md-4">Intership Yaasmin</div>
+        </div>
+        <div class="row py-3 border-bottom">
+            <div class="col-md-4">Sep 2022 - Aug 2023</div>
+            <div class="col-md-4">Staff of Bureau Media</div>
+            <div class="col-md-4">BEM FIKTI UG</div>
+        </div>
+        <div class="row py-3 border-bottom">
+            <div class="col-md-4">Sep 2023 - Sep 2024</div>
+            <div class="col-md-4">Deputy of Bureau Media</div>
+            <div class="col-md-4">BEM FIKTI UG</div>
+        </div>
+        <div class="row py-3 border-bottom">
+            <div class="col-md-4">Sep 2023 - Sep 2024</div>
+            <div class="col-md-4">Core Team Media Creative</div>
+            <div class="col-md-4">Goggle DSC UG</div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="portfolio-section" id="portfolio">
+      <div class="container">
+        <div class="row align items center justify-content-between ">
+          <div class="col-md-6">           
+            <p class="text-orange fw-semibold">contact</p>
+            <h2 class="section-title mb-5">get in touch</h2>
+            <p class="text-secondary mb-3">
+              Please fill out the form on this section to contact with me. Or call
+              between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday
+            </p>
+    
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <i class="bx bx-map-pin text-orange fs-5"></i>
+              <div class="mb-0">16820 Vino Alif Rafli, Bogor, Jawa Barat</div>
+            </div>
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <i class="bx bx-phone-call text-orange fs-5"></i>
+              <div class="mb-0">+62 895333554446</div>
+            </div>
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <i class="bx bx-envelope text-orange fs-5"></i>
+              <div class="mb-0">vinopwt9@gmail.com</div>
+            </div>
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <i class="bx bx-globe text-orange fs-5"></i>
+              <div class="mb-0">Indonesia</div>
+            </div>
+            </div>
+            <div class="col md-5">
+              <form action="#">
+                <input type="text" name="name" id="name" placeholder="Name" class="form-control rounded-0 mb-0"/>
+                <input type="email" name="email" id="email" placeholder="Email" class="form-control rounded-0 mb-0"/>
+                <textarea name="body" placeholder="Message" cols="30" rows="3" class="font-control rounded-0 mb-3"></textarea>
+
+                <button class="btn btn-orange w-100 rounded-0">Sumbit</button>
+              </form>
+            </div>
+          </div>
+      </div>
+    </section> 
+    
+    <footer class="py-3">
+      <div class="container">
+        <p class="text-white fs-7 mb-0">Coppyright &copy</p>
+      </div>
+    </footer>
+
+        <script src="vendors/bootsrap/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+          var swiper = new Swiper(".portfolio-swiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            navigation: {
+              nextEl: ".btn-prev",
+              prevEL: ".btn-next",
+            },
+          });
+        </script>
+</body>
+</html>
